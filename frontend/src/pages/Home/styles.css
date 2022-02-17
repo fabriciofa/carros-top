@@ -1,0 +1,163 @@
+.banner-main-container {
+  padding: 20px 10px 0px 10px;
+}
+
+.banner-main {
+  background-color: #00285f;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.banner-image {
+  padding: 60px 28px 15px 28px;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+.banner-text {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.banner-text h3 {
+  font-size: 22px;
+  padding-bottom: 13px;
+}
+
+.banner-text p {
+  font-size: 14px;
+  padding-bottom: 30px;
+}
+
+/* Catalog Button */
+
+.banner-catalog {
+  background-color: #ededed;
+  height: 123px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 28px 50px 25px 50px;
+  margin-top: 20px;
+}
+
+.banner-catalog-button button {
+  background-color: #00285f;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  width: 174px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+
+.banner-catalog-text p {
+  font-size: 18px;
+  color: #585858;
+  padding-top: 9px;
+}
+
+@media (min-width: 576px) {
+  .banner-main-container {
+    padding: 30px 20px 0px 20px;
+  }
+
+  .banner-image {
+    padding: 22px 100px 19px 100px;
+  }
+
+  .banner-text h3 {
+    font-size: 36px;
+    padding-bottom: 1px;
+    width: 460px;
+  }
+
+  .banner-text p {
+    font-size: 18px;
+    padding-bottom: 20px;
+    width: 460px;
+  }
+
+  .banner-catalog {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 80px 40px 80px;
+    margin-top: 30px;
+  }
+
+  .banner-catalog-text p {
+    padding-top: 18px;
+  }
+}
+
+@media (min-width: 768px) {
+  .banner-image {
+    padding: 75px 195px 35px 10px;
+  }
+
+  .banner-text {
+    padding: 0;
+  }
+
+  .banner-text p {
+    padding-bottom: 56px;
+  }
+
+  .banner-catalog {
+    padding: 40px 85px 40px 80px;
+    justify-content: flex-start;
+  }
+
+  .banner-catalog-text p {
+    padding-left: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-image {
+    padding: 80px 265px 17px 265px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .banner-main {
+    flex-direction: row-reverse;
+    width: 1100px;
+  }
+
+  .banner-text {
+    text-align: left;
+  }
+
+  .banner-text p {
+    padding-bottom: 0px;
+  }
+
+  .banner-image {
+    padding: 83px 85px 83px 0px;
+  }
+
+  .banner-image img {
+      width: 333px;
+  }
+
+  .banner-catalog {
+    margin-top: 30px !important;
+    margin: 0 auto;
+    width: 1100px;
+    justify-content: flex-start;
+  }
+}
