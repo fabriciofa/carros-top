@@ -1,0 +1,71 @@
+.main-nav {
+  background-color: #f78b00;
+  min-height: 70px;
+  padding: 10px 20px 10px 20px;
+}
+
+.navbar-logo-text h3 {
+  color: #00285f;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  margin-right: -13px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 40, 95, 1)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(0, 0, 0, 0);
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0;
+}
+
+.main-menu {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.main-menu li {
+  padding-bottom: 12px;
+}
+
+.main-menu a {
+  color: #00285f;
+}
+
+.main-menu a:hover {
+  color: #00285f;
+  font-weight: 700;
+}
+
+.main-menu a.active {
+  color: #00285f;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+  }
+
+  .navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .main-menu li {
+    padding-bottom: 0px;
+    padding-left: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .main-nav {
+    padding: 20px 150px 20px 150px;
+  }
+}
