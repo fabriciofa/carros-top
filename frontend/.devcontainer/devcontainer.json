@@ -1,0 +1,22 @@
+{
+	"name": "Node.js & TypeScript",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { 
+			"VARIANT": "14-bullseye"
+		}
+	},
+
+	"settings": {},
+
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"formulahendry.auto-rename-tag",
+		"CoenraadS.bracket-pair-colorizer",
+		"naumovs.color-highlight",
+		"esbenp.prettier-vscode",
+		"VisualStudioExptTeam.vscodeintellicode"
+	],
+
+	"remoteUser": "node"
+}
