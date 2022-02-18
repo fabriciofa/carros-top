@@ -5,7 +5,6 @@ import "./styles.css";
 const Catalog = () => {
   return (
     <>
-      <Navbar />
       <div className="searchbox-container">
         <div className="searchbox">
           <input
