@@ -69,11 +69,18 @@
 
 @media (min-width: 1200px) {
   .searchbox-container {
+    display: flex;
+    justify-content: center;
     padding: 30px 150px;
   }
 
-  .row {
-    padding: 0 130px;
-    margin: 0;
+  .searchbox {
+    width: 952px;
+  }
+
+  .car-card-main {
+    width: 79%;
+    max-width: 995px;
+    padding: 0;
   }
 }

@@ -19,7 +19,7 @@ const Catalog = () => {
           </button>
         </div>
       </div>
-      <div className="container-fluid px-2">
+      <div className="container-fluid px-2 car-card-main">
         <div className="row">
           <div className="col-sm-6 col-md-6 col-lg-4 col-xl-4">
             <CarCard />
