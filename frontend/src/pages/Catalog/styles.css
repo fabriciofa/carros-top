@@ -1,0 +1,79 @@
+.searchbox-container {
+  padding: 20px 10px;
+}
+
+.searchbox {
+  background-color: #ededed;
+  height: 86px;
+  padding: 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.searchbox-field {
+  border: none;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px 0px 0px 5px;
+  padding: 10px;
+}
+
+.searchbox-field::placeholder {
+  color: #a7a7a7;
+}
+
+.searchbox-button {
+  border: none;
+  width: 77px;
+  height: 40px;
+  background-color: #00285f;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.searchbox-button span {
+  color: #fff;
+  font-weight: 700;
+}
+
+@media (min-width: 576px) {
+  .searchbox-container {
+    padding: 30px 20px;
+  }
+
+  .searchbox {
+    height: 123px;
+    padding: 40px 20px;
+  }
+
+  .searchbox-button {
+    border: none;
+    width: 174px;
+    height: 40px;
+    background-color: #00285f;
+    border-radius: 0px 5px 5px 0px;
+  }
+
+  .row {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .searchbox {
+    padding: 40px 95px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .searchbox-container {
+    padding: 30px 150px;
+  }
+
+  .row {
+    padding: 0 130px;
+    margin: 0;
+  }
+}

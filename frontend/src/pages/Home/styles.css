@@ -135,7 +135,7 @@
 @media (min-width: 1200px) {
   .banner-main {
     flex-direction: row-reverse;
-    width: 1100px;
+    width: 979px;
   }
 
   .banner-text {
@@ -157,7 +157,7 @@
   .banner-catalog {
     margin-top: 30px !important;
     margin: 0 auto;
-    width: 1100px;
+    width: 979px;
     justify-content: flex-start;
   }
 }
